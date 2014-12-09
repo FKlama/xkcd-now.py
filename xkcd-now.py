@@ -93,7 +93,7 @@ def displayPicture(path):
   cmd = viewer + " "
   if viewer_opt:
     cmd += viewer_opt + " "
-  cmd += picture
+  cmd += path
 
   # print picture
   system(cmd)
